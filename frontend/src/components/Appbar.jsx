@@ -36,7 +36,7 @@ export const Appbar = ({ user }) => {
 
     return (
         <div className="shadow h-14 flex justify-between items-center px-4">
-            <div>PayTM App</div>
+            <div>PayTM.ap</div>
             <div className="flex items-center" ref={menuRef}>
                 <div className="flex flex-col justify-center h-full mr-4">
                     Hello, {user && user.firstName ? user.firstName : 'Guest'}
